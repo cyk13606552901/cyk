@@ -154,7 +154,10 @@ print(response)
 
 
 ## 训练结果演示
+在SwanLab上查看最终的训练结果：
 
+可以看到在2个epoch之后，微调后的qwen2的loss降低到了不错的水平
+![loss](./picture/loss.png)
 可以看到在一些测试样例上，微调后的qwen2能够给出准确的文本类型：
 
 ![result](./picture/result.png)
